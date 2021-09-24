@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <%- include('./partials/head.ejs') %>
+  <body>
+    <%- include('./partials/header.ejs') %>
+    <div class="container">
+      <div class="container-header">
+        <h1>Add Item</h1>
+      </div>
+      <div class="item-form-wrapper">
+        <p class="form-label">What do you want to buy?</p>
+        <form action="/create" method="post">
+          <input type="text" name="itemName">
+          <input type="submit" value="Add">
+        </form>
+      </div>
+      <a href="/lists" class="cancel-button">Go back</a>
+    </div>
+  </body>
+</html>
