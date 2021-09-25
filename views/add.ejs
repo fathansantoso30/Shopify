@@ -8,9 +8,12 @@
         <h1>Add Item</h1>
       </div>
       <div class="item-form-wrapper">
-        <p class="form-label">What do you want to buy?</p>
-        <form action="/create" method="post">
-          <input type="text" name="itemName">
+        <!-- <p class="form-label">What do you want to buy?</p> -->
+        <form action="/lists" method="POST">
+          <label class="form-label" for="name">What do you want to buy?</label>
+          <input type="text" id="name" name="name" required>
+          <label class="form-label" for="amount">How much do you want to buy?</label>
+          <input type="number" id="amount" name="amount" required>
           <input type="submit" value="Add">
         </form>
       </div>
