@@ -4,6 +4,7 @@ const listsRoutes = require('./routes/listsRoutes');
 
 // express app
 const app = express();
+const port = process.env.PORT || 3000
 
 // connect to mongodb server
 const dbURL = 'mongodb+srv://tester:test1234@shopify1.r1miz.mongodb.net/shopify1?retryWrites=true&w=majority';
@@ -11,7 +12,7 @@ mongoose.connect(dbURL, {
     useNewUrlParser: true, 
     useUnifiedTopology: true,
 })
-    .then((result) => app.listen(3000))
+    .then((result) => app.listen(port))
     .catch((err) => console.log(err));
 
 // register view engine
