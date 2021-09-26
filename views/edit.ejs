@@ -8,9 +8,11 @@
         <h1>Edit Item</h1>
       </div>
       <div class="item-form-wrapper">
-        <p class="form-label">Item</p>
-        <form action="/update/<%= item.id %>" method="post">
-          <input type="text" name="itemName" value="<%= item.name %>">
+        <form action="/lists/<%= item._id %>?_method=put" method="POST">
+          <label class="form-label" for="name">Item</label>
+          <input type="text" name="name" value="<%= item.name %>">
+          <label class="form-label" for="name">Amount</label>
+          <input type="number" name="amount" value=<%= item.amount %>> 
           <input type="submit" value="Update">
         </form>
       </div>
