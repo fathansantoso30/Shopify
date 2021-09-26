@@ -6,7 +6,7 @@ A simple shopping list website inspired by Progate NodeJS course
 clone the project:
 
 ```bash
-$ git clone https://github.com/arjunkhetia/Node.Js-Express-MySQL-Project.git
+$ git clone https://github.com/fathansantoso30/Shopify.git
 ```
 
 ## Installation
