@@ -1,9 +1,11 @@
 # Shopify
 A simple shopping list website inspired by Progate NodeJS course
 
-This project is built with node js, express js and mongodb and currently also deployed on Heroku 
-
 ![Images Banner](https://i.pinimg.com/originals/df/e9/bd/dfe9bd007ebd2fda0bd5ed20ce4eef57.jpg)
+
+## About
+Shopify is built with node js, express js and MongoDB and use route and based on MVC architecture to make the code clean. 
+This project is available to visit on Heroku if you want to see it.
 
 ## Link: https://shopify-paw.herokuapp.com/
  
